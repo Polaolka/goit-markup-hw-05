@@ -108,7 +108,7 @@ header {
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-delay: 0;
+    
 }
 
 .li-nav+.li-nav {
@@ -153,7 +153,7 @@ header {
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-delay: 0;
+    
 }
 
 
@@ -192,7 +192,7 @@ header {
     transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-delay: 0;
+    
 }
 
 /* Hero */
@@ -410,7 +410,7 @@ button {
     transition-property: border;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-delay: 0;
+    
 }
 
 .li-clients+.li-clients {
@@ -430,7 +430,7 @@ button {
     transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-delay: 0;
+    
 }
 
 .clients-link:hover .clients-logo, 
@@ -474,7 +474,7 @@ address li {
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-delay: 0;
+    
 }
 
 .physical-adress {
@@ -512,7 +512,7 @@ address li {
     transition-property: background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-delay: 0;
+    
 }
 
 .link-social:hover, 
@@ -531,7 +531,7 @@ footer .social-icon {
     transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-delay: 0;
+    
 }
 
 /* Portfolio */
@@ -564,7 +564,7 @@ footer .social-icon {
     transition-property: color, background-color, box-shadow;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-delay: 0;
+    
 }
 
 .button-nav.active,
@@ -588,7 +588,7 @@ footer .social-icon {
     transition-property: box-shadow;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-delay: 0;
+    
 }
 
 .portfolio-link:hover,
@@ -644,7 +644,7 @@ overflow: hidden;
     transition-property: transform;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-delay: 0;
+    
 }
 
 .overlay-txt {
@@ -676,11 +676,10 @@ overflow: hidden;
 
     background-color: rgba(0, 0, 0, 0.2);
 
-    transition-property: transform;
-    transition-property: opacity;
+    transition-property: transform, opacity;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-delay: 0;
+    transition-delay: 1000ms;
 }
 
 .modal {
@@ -697,6 +696,7 @@ overflow: hidden;
     opacity: 0;
     pointer-events: none;
     transform: translatex(-100%);
+
 }
 
 .close {
@@ -710,11 +710,7 @@ overflow: hidden;
     height: 30px;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
-
-    transition-property: border;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-delay: 0;
+    
 }
 .close::before {
     content: '';
@@ -728,7 +724,7 @@ overflow: hidden;
     transition-property: background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-delay: 0;
+    
 }
 
 .close::after {
@@ -743,7 +739,7 @@ overflow: hidden;
     transition-property: background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-delay: 0;
+    
 }
 
 .close:hover::before, 
