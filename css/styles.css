@@ -70,6 +70,9 @@ img {
 
 header {
     border-bottom: 1px solid #ECECEC;
+    height: 80px;
+    border-bottom: 1px solid #ECECEC;
+    display: flex;
 }
 
 .logo {
@@ -95,8 +98,8 @@ header {
 
 .site-nav .link {
     display: inline-block;
-    padding-top: 25px;
-    padding-bottom: 24px;
+    padding-top: 32px;
+    padding-bottom: 33px;
     font-weight: 500;
     font-size: 14px;
     text-decoration: none;
